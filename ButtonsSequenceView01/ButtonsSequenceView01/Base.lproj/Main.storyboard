@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lpj-K9-NTC">
+                                <rect key="frame" x="0.0" y="200" width="600" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We really love Minions!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AvU-SQ-41H">
+                                        <rect key="frame" x="25" y="10" width="550" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="U3X-sf-ZDW"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                        <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOp-L6-yOr">
+                                        <rect key="frame" x="20" y="75" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="AlF-gF-MqF"/>
+                                            <constraint firstAttribute="height" constant="50" id="mmu-To-pmX"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="minion01">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OD3-nt-76s">
+                                        <rect key="frame" x="530" y="75" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="g5I-YJ-XBR"/>
+                                            <constraint firstAttribute="height" constant="50" id="wyO-aH-JwJ"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="minion04">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UU0-LY-xQg">
+                                        <rect key="frame" x="190" y="75" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="aA0-YK-dil"/>
+                                            <constraint firstAttribute="width" constant="50" id="f0s-KC-Jjq"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="minion02">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Aq-se-jA5">
+                                        <rect key="frame" x="360" y="75" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="0ZS-7F-ari"/>
+                                            <constraint firstAttribute="height" constant="50" id="NeI-GY-Nhb"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="minion03">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="55e-dS-w9n">
+                                        <rect key="frame" x="70" y="75" width="120" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="iTp-1w-vuo"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qmm-kR-0li">
+                                        <rect key="frame" x="240" y="75" width="120" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="7ax-mT-9Nw"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1lW-Cw-6Ky">
+                                        <rect key="frame" x="410" y="75" width="120" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="cLu-wp-Gbp"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="2Aq-se-jA5" firstAttribute="top" secondItem="AvU-SQ-41H" secondAttribute="bottom" constant="40" id="2g2-Kk-Vd4"/>
+                                    <constraint firstItem="OD3-nt-76s" firstAttribute="leading" secondItem="1lW-Cw-6Ky" secondAttribute="trailing" id="6Bw-lM-prG"/>
+                                    <constraint firstAttribute="trailing" secondItem="OD3-nt-76s" secondAttribute="trailing" constant="20" id="6tr-b5-lSg"/>
+                                    <constraint firstItem="UU0-LY-xQg" firstAttribute="top" secondItem="AvU-SQ-41H" secondAttribute="bottom" constant="40" id="BSz-zN-VDz"/>
+                                    <constraint firstItem="AvU-SQ-41H" firstAttribute="top" secondItem="lpj-K9-NTC" secondAttribute="top" constant="10" id="EFU-5d-Oe8"/>
+                                    <constraint firstItem="55e-dS-w9n" firstAttribute="top" secondItem="AvU-SQ-41H" secondAttribute="bottom" constant="40" id="Fke-6d-UNA"/>
+                                    <constraint firstItem="1lW-Cw-6Ky" firstAttribute="width" secondItem="qmm-kR-0li" secondAttribute="width" id="HwX-wc-iVx"/>
+                                    <constraint firstItem="qmm-kR-0li" firstAttribute="width" secondItem="55e-dS-w9n" secondAttribute="width" id="IgD-fC-0Za"/>
+                                    <constraint firstItem="2Aq-se-jA5" firstAttribute="leading" secondItem="qmm-kR-0li" secondAttribute="trailing" id="JzI-W3-ulf"/>
+                                    <constraint firstAttribute="trailing" secondItem="AvU-SQ-41H" secondAttribute="trailing" constant="25" id="KVF-ut-1iE"/>
+                                    <constraint firstItem="qOp-L6-yOr" firstAttribute="top" secondItem="AvU-SQ-41H" secondAttribute="bottom" constant="40" id="Khm-wK-xkb"/>
+                                    <constraint firstItem="qmm-kR-0li" firstAttribute="leading" secondItem="UU0-LY-xQg" secondAttribute="trailing" id="QbR-dd-dyE"/>
+                                    <constraint firstItem="qOp-L6-yOr" firstAttribute="leading" secondItem="lpj-K9-NTC" secondAttribute="leading" constant="20" id="Uky-YG-mRp"/>
+                                    <constraint firstItem="UU0-LY-xQg" firstAttribute="leading" secondItem="55e-dS-w9n" secondAttribute="trailing" id="X3F-aj-ywc"/>
+                                    <constraint firstItem="1lW-Cw-6Ky" firstAttribute="top" secondItem="AvU-SQ-41H" secondAttribute="bottom" constant="40" id="Xvu-0R-Dnp"/>
+                                    <constraint firstAttribute="height" constant="200" id="i94-O7-Y0e"/>
+                                    <constraint firstItem="OD3-nt-76s" firstAttribute="top" secondItem="AvU-SQ-41H" secondAttribute="bottom" constant="40" id="lYa-d7-F4T"/>
+                                    <constraint firstItem="1lW-Cw-6Ky" firstAttribute="leading" secondItem="2Aq-se-jA5" secondAttribute="trailing" id="pKG-Ne-xRe"/>
+                                    <constraint firstItem="qmm-kR-0li" firstAttribute="top" secondItem="AvU-SQ-41H" secondAttribute="bottom" constant="40" id="rWJ-35-FRt"/>
+                                    <constraint firstItem="AvU-SQ-41H" firstAttribute="leading" secondItem="lpj-K9-NTC" secondAttribute="leading" constant="25" id="uch-rj-ycK"/>
+                                    <constraint firstItem="55e-dS-w9n" firstAttribute="leading" secondItem="qOp-L6-yOr" secondAttribute="trailing" id="yyD-q2-bxt"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="lpj-K9-NTC" secondAttribute="centerX" id="2pM-aO-Rdb"/>
+                            <constraint firstAttribute="centerY" secondItem="lpj-K9-NTC" secondAttribute="centerY" id="A53-Pe-i7y"/>
+                            <constraint firstItem="lpj-K9-NTC" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="xTM-u0-7Pi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="minion01" width="1035" height="796"/>
+        <image name="minion02" width="646" height="950"/>
+        <image name="minion03" width="276" height="314"/>
+        <image name="minion04" width="300" height="300"/>
+    </resources>
+</document>
